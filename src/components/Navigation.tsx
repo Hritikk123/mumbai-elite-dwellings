@@ -10,7 +10,7 @@ export const Navigation = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <Building2 className="h-8 w-8 text-luxury-gold group-hover:animate-gold-glow transition-all" />
             <span className="text-2xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
-              Mumbai Elite Properties
+              Hritik Estate Consultant
             </span>
           </Link>
           

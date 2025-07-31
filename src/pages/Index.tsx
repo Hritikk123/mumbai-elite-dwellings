@@ -59,7 +59,7 @@ const Index = () => {
       <footer className="bg-luxury-dark-card border-t border-luxury-gold/20 py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-luxury-text-muted">
-            © 2024 Mumbai Elite Properties. All rights reserved.
+            © 2025 Hritik Estate Consultant. All rights reserved.
           </p>
         </div>
       </footer>

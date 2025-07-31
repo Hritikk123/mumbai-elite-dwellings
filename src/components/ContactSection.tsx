@@ -17,7 +17,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <p className="text-luxury-text-muted text-sm">Phone</p>
-              <p className="text-luxury-text font-semibold">+91 98765 43210</p>
+              <p className="text-luxury-text font-semibold">+91 91675 83110</p>
             </div>
           </div>
           
@@ -27,7 +27,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <p className="text-luxury-text-muted text-sm">Email</p>
-              <p className="text-luxury-text font-semibold">elite@mumbaiproperties.com</p>
+              <p className="text-luxury-text font-semibold">hritikdesigns@gmail.com</p>
             </div>
           </div>
           
@@ -37,7 +37,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <p className="text-luxury-text-muted text-sm">Office Address</p>
-              <p className="text-luxury-text font-semibold">Peninsula Business Park, Andheri East, Mumbai 400059</p>
+              <p className="text-luxury-text font-semibold">Goregaon West, Mumbai</p>
             </div>
           </div>
           
@@ -47,7 +47,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <p className="text-luxury-text-muted text-sm">Business Hours</p>
-              <p className="text-luxury-text font-semibold">Mon-Sat: 9AM-7PM</p>
+              <p className="text-luxury-text font-semibold">Mon-Sat: 10AM-9PM</p>
             </div>
           </div>
         </div>

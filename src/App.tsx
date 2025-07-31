@@ -10,6 +10,9 @@ import Commercial from "./pages/Commercial";
 import RowHouses from "./pages/RowHouses";
 import OtherListings from "./pages/OtherListings";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Schedule from "./pages/Schedule";
+import ERegistration from "./pages/ERegistration";
 
 const queryClient = new QueryClient();
 
@@ -26,9 +29,9 @@ const App = () => (
           <Route path="/properties/row-houses" element={<RowHouses />} />
           <Route path="/properties/other-listings" element={<OtherListings />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<Contact />} />
-          <Route path="/schedule" element={<Contact />} />
-          <Route path="/e-registration" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/e-registration" element={<ERegistration />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
