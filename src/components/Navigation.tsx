@@ -9,7 +9,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3 group">
             <Building2 className="h-6 w-6 sm:h-8 sm:w-8 text-luxury-gold group-hover:animate-gold-glow transition-all" />
-            <span className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
+            <span className="text-lg sm:text-xl md:text-2xl font-bold text-luxury-gold">
               Hritik Estate Consultant
             </span>
           </Link>
