@@ -39,23 +39,23 @@ const propertyCategories = [
 
 export const PropertyGrid = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
       {propertyCategories.map((category) => {
         const IconComponent = category.icon;
         return (
           <Link key={category.id} to={category.path} className="group">
             <Card className="bg-luxury-dark-card border-luxury-gold/20 hover:border-luxury-gold/50 transition-all duration-300 hover:shadow-luxury group-hover:scale-105">
-              <CardContent className="p-8 text-center">
+              <CardContent className="p-4 sm:p-6 md:p-8 text-center">
                 <div className="mb-6 flex justify-center">
                   <div className="p-4 bg-gradient-luxury rounded-full group-hover:animate-gold-glow">
                     <IconComponent className="h-12 w-12 text-luxury-dark" />
                   </div>
                 </div>
                 
-                <h3 className="text-2xl font-bold text-luxury-text mb-2">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-luxury-text mb-2">
                   {category.title}
                 </h3>
-                <p className="text-xl text-luxury-gold mb-4">
+                <p className="text-base sm:text-lg md:text-xl text-luxury-gold mb-4">
                   {category.subtitle}
                 </p>
                 <p className="text-luxury-text-muted leading-relaxed">

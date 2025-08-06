@@ -25,9 +25,9 @@ export const ContactSection = () => {
             <div className="p-3 bg-gradient-luxury rounded-full">
               <Mail className="h-6 w-6 text-luxury-dark" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <p className="text-luxury-text-muted text-sm">Email</p>
-              <p className="text-luxury-text font-semibold">hritikdesigns@gmail.com</p>
+              <p className="text-luxury-text font-semibold break-all">hritikdesigns@gmail.com</p>
             </div>
           </div>
           
