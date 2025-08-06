@@ -9,7 +9,7 @@ const Schedule = () => {
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold bg-gradient-luxury bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-luxury-gold mb-4">
             Schedule a Meeting
           </h1>
           <p className="text-luxury-text-muted text-lg">
@@ -20,7 +20,7 @@ const Schedule = () => {
         <div className="max-w-2xl mx-auto">
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent flex items-center justify-center gap-2">
+              <CardTitle className="text-2xl font-bold text-center text-luxury-gold flex items-center justify-center gap-2">
                 <Calendar className="h-6 w-6 text-luxury-gold" />
                 Contact Us to Schedule
               </CardTitle>

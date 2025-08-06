@@ -9,7 +9,7 @@ const ERegistration = () => {
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold bg-gradient-luxury bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-luxury-gold mb-4">
             e-Registration Services
           </h1>
           <p className="text-luxury-text-muted text-lg">
@@ -21,7 +21,7 @@ const ERegistration = () => {
           {/* What We Offer Section */}
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent flex items-center justify-center gap-2">
+              <CardTitle className="text-2xl font-bold text-center text-luxury-gold flex items-center justify-center gap-2">
                 <FileText className="h-6 w-6 text-luxury-gold" />
                 Rental e-Registration Services
               </CardTitle>
@@ -73,7 +73,7 @@ const ERegistration = () => {
 
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent flex items-center justify-center gap-2">
+              <CardTitle className="text-2xl font-bold text-center text-luxury-gold flex items-center justify-center gap-2">
                 <FileText className="h-6 w-6 text-luxury-gold" />
                 What We Offer
               </CardTitle>
@@ -114,7 +114,7 @@ const ERegistration = () => {
           
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
+              <CardTitle className="text-xl font-bold text-luxury-gold">
                 Our e-Registration Services Include:
               </CardTitle>
             </CardHeader>
@@ -154,7 +154,7 @@ const ERegistration = () => {
           
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent">
+              <CardTitle className="text-2xl font-bold text-center text-luxury-gold">
                 Ready to Start e-Registration?
               </CardTitle>
             </CardHeader>

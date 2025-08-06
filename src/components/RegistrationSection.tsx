@@ -7,7 +7,7 @@ export const RegistrationSection = () => {
   return (
     <Card className="bg-luxury-dark-card border-luxury-gold/20 hover:border-luxury-gold/50 transition-all">
       <CardHeader>
-        <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent flex items-center justify-center gap-2">
+        <CardTitle className="text-2xl font-bold text-center text-luxury-gold flex items-center justify-center gap-2">
           <FileText className="h-6 w-6 text-luxury-gold" />
           Rental e-Registration Services
         </CardTitle>

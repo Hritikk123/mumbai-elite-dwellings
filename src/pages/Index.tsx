@@ -19,7 +19,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-luxury-dark/70"></div>
         </div>
         <div className="relative z-10 text-center px-4 animate-fade-in">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-luxury bg-clip-text text-transparent hero-title">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-luxury-gold hero-title">
             Hritik Estate Consultant
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-luxury-text-muted max-w-3xl mx-auto leading-relaxed hero-subtitle">

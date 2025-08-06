@@ -54,7 +54,7 @@ export const PropertyUploadForm = ({ propertyType }: PropertyUploadFormProps) =>
   return (
     <Card className="bg-luxury-dark-card border-luxury-gold/20 mb-8">
       <CardHeader>
-        <CardTitle className="text-2xl font-bold bg-gradient-luxury bg-clip-text text-transparent flex items-center gap-2">
+        <CardTitle className="text-2xl font-bold text-luxury-gold flex items-center gap-2">
           <Plus className="h-6 w-6 text-luxury-gold" />
           List Your {propertyType} Property
         </CardTitle>

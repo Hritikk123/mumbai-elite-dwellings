@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <Card className="bg-luxury-dark-card border-luxury-gold/20 hover:border-luxury-gold/50 transition-all">
       <CardHeader>
-        <CardTitle className="text-2xl font-bold text-center bg-gradient-luxury bg-clip-text text-transparent">
+        <CardTitle className="text-2xl font-bold text-center text-luxury-gold">
           Contact Our Luxury Broker
         </CardTitle>
       </CardHeader>

@@ -13,7 +13,7 @@ const OtherListings = () => {
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold bg-gradient-luxury bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-luxury-gold mb-4">
             Other Listings
           </h1>
           <p className="text-luxury-text-muted text-lg">

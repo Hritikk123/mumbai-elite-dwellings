@@ -41,7 +41,7 @@ const Contact = () => {
       
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8 text-center">
-          <h1 className="text-4xl font-bold bg-gradient-luxury bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-luxury-gold mb-4">
             Contact Us
           </h1>
           <p className="text-luxury-text-muted text-lg">
@@ -54,7 +54,7 @@ const Contact = () => {
           
           <Card className="bg-luxury-dark-card border-luxury-gold/20">
             <CardHeader>
-              <CardTitle className="text-2xl font-bold bg-gradient-luxury bg-clip-text text-transparent">
+              <CardTitle className="text-2xl font-bold text-luxury-gold">
                 Send us a Message
               </CardTitle>
             </CardHeader>
