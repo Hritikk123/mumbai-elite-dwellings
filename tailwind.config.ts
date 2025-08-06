@@ -57,6 +57,8 @@ export default {
 					'gold-light': 'hsl(var(--luxury-gold-light))',
 					dark: 'hsl(var(--luxury-dark))',
 					'dark-card': 'hsl(var(--luxury-dark-card))',
+					'medium-cyan': 'hsl(var(--luxury-medium-cyan))',
+					'light-orange': 'hsl(var(--luxury-light-orange))',
 					text: 'hsl(var(--luxury-text))',
 					'text-muted': 'hsl(var(--luxury-text-muted))'
 				},
@@ -120,7 +122,8 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-luxury': 'var(--gradient-luxury)',
-				'gradient-dark': 'var(--gradient-dark)'
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-cyan': 'var(--gradient-cyan)'
 			},
 			boxShadow: {
 				'luxury': 'var(--shadow-luxury)',

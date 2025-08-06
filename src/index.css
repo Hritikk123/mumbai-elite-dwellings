@@ -8,43 +8,46 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 13% 9%;
-    --foreground: 45 100% 95%;
+    --background: 187 100% 8%;
+    --foreground: 39 100% 90%;
 
-    --card: 220 13% 12%;
-    --card-foreground: 45 100% 95%;
+    --card: 187 100% 12%;
+    --card-foreground: 39 100% 90%;
 
-    --popover: 220 13% 12%;
-    --popover-foreground: 45 100% 95%;
+    --popover: 187 100% 12%;
+    --popover-foreground: 39 100% 90%;
 
     --primary: 45 92% 65%;
-    --primary-foreground: 220 13% 9%;
+    --primary-foreground: 187 100% 8%;
 
-    --secondary: 220 13% 18%;
-    --secondary-foreground: 45 100% 95%;
+    --secondary: 187 60% 25%;
+    --secondary-foreground: 39 100% 90%;
 
-    --muted: 220 13% 15%;
-    --muted-foreground: 45 20% 70%;
+    --muted: 187 80% 15%;
+    --muted-foreground: 39 60% 75%;
 
-    --accent: 45 92% 65%;
-    --accent-foreground: 220 13% 9%;
+    --accent: 39 100% 70%;
+    --accent-foreground: 187 100% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 25%;
-    --input: 220 13% 18%;
+    --border: 187 60% 25%;
+    --input: 187 80% 18%;
     --ring: 45 92% 65%;
 
     --luxury-gold: 45 92% 65%;
-    --luxury-gold-light: 45 100% 75%;
-    --luxury-dark: 220 13% 6%;
-    --luxury-dark-card: 220 13% 12%;
-    --luxury-text: 45 100% 95%;
-    --luxury-text-muted: 45 20% 70%;
+    --luxury-gold-light: 39 100% 75%;
+    --luxury-dark: 187 100% 8%;
+    --luxury-dark-card: 187 100% 12%;
+    --luxury-medium-cyan: 187 60% 35%;
+    --luxury-light-orange: 39 100% 70%;
+    --luxury-text: 39 100% 90%;
+    --luxury-text-muted: 39 60% 75%;
 
-    --gradient-luxury: linear-gradient(135deg, hsl(var(--luxury-gold)), hsl(var(--luxury-gold-light)));
+    --gradient-luxury: linear-gradient(135deg, hsl(var(--luxury-gold)), hsl(var(--luxury-light-orange)));
     --gradient-dark: linear-gradient(180deg, hsl(var(--luxury-dark)), hsl(var(--luxury-dark-card)));
+    --gradient-cyan: linear-gradient(135deg, hsl(var(--luxury-dark)), hsl(var(--luxury-medium-cyan)));
     
     --shadow-luxury: 0 10px 30px -10px hsl(var(--luxury-gold) / 0.3);
     --shadow-glow: 0 0 40px hsl(var(--luxury-gold) / 0.2);
@@ -69,32 +72,32 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 13% 9%;
-    --foreground: 45 100% 95%;
+    --background: 187 100% 8%;
+    --foreground: 39 100% 90%;
 
-    --card: 220 13% 12%;
-    --card-foreground: 45 100% 95%;
+    --card: 187 100% 12%;
+    --card-foreground: 39 100% 90%;
 
-    --popover: 220 13% 12%;
-    --popover-foreground: 45 100% 95%;
+    --popover: 187 100% 12%;
+    --popover-foreground: 39 100% 90%;
 
     --primary: 45 92% 65%;
-    --primary-foreground: 220 13% 9%;
+    --primary-foreground: 187 100% 8%;
 
-    --secondary: 220 13% 18%;
-    --secondary-foreground: 45 100% 95%;
+    --secondary: 187 60% 25%;
+    --secondary-foreground: 39 100% 90%;
 
-    --muted: 220 13% 15%;
-    --muted-foreground: 45 20% 70%;
+    --muted: 187 80% 15%;
+    --muted-foreground: 39 60% 75%;
 
-    --accent: 45 92% 65%;
-    --accent-foreground: 220 13% 9%;
+    --accent: 39 100% 70%;
+    --accent-foreground: 187 100% 8%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 13% 25%;
-    --input: 220 13% 18%;
+    --border: 187 60% 25%;
+    --input: 187 80% 18%;
     --ring: 45 92% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
